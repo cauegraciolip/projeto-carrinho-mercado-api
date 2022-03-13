@@ -1,0 +1,32 @@
+{
+  "name": "market-api",
+  "version": "1.0.0",
+  "description": "API Rest do projeto Carrinho de mercado",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cauegraciolip/projeto-carrinho-mercado-api.git"
+  },
+  "keywords": [
+    "api",
+    "rest",
+    "node",
+    "prisma",
+    "sql"
+  ],
+  "author": "cauegraciolip",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cauegraciolip/projeto-carrinho-mercado-api/issues"
+  },
+  "homepage": "https://github.com/cauegraciolip/projeto-carrinho-mercado-api#readme",
+  "devDependencies": {
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
