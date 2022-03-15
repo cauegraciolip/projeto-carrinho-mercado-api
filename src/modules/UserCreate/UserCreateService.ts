@@ -28,7 +28,7 @@ class UserCreateService {
                 throw new Error("Usuário já existe");
             }
         }catch(err) {
-            return `${err}`
+            return {error: `${err.message}`}
         }
 
 
